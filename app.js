@@ -212,7 +212,7 @@ function fetchWeatherData(cityInput) {
             app.style.backgroundImage = `url(Image/Snowy & Cold.jpg)`;
             setIconAndBtn(data);
         } else {
-            app.style.backgroundImage = `url(Image/partlyCloudy.jpg)`;
+            app.style.backgroundImage = `url(Image/PartlyCloudy.jpg)`;
             setIconAndBtn(data);
         }
         app.style.opacity = "1";
