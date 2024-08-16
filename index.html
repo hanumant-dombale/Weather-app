@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Details</title>
+    <link rel="icon" href="Image/weather logo.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="weather-app">
+        <div class="container">
+            <div class="tz-b">
+                <h3 class="brand">The weather</h3>
+                <h3 class="time-zone">-</h3>
+            </div>
+            <div>
+                <h1 class="temp">-</h1>
+                <div class="city-time">
+                    <h1 class="name">-</h1>
+                    <small>
+                        <span class="time">-</span> -
+                        <span class="date">-</span>
+                    </small>
+                </div>
+                <div class="weather">
+                    <img src="" class="icon" alt="icon" width="50" height="50" />
+                    <span class="condition">-</span>
+                </div>
+            </div>
+        </div>
+        <div class="panel">
+            <form id="locationInput">
+                <input type="text" class="search" placeholder="Search Location...." />
+                <button type="submit" class="submit">
+                    <i class="fas fa-serach">Search</i>
+                </button>
+            </form>
+            <ul class="cities">
+                <li class="city">Mumbai</li>
+                <li class="city">Pune</li>
+                <li class="city">Sangali</li>
+                <li class="city">Satara</li>
+            </ul>
+            <ul class="details">
+                <h3>Weather Details</h3>
+                <li>
+                    <span>Cloudy</span>
+                    <span class="cloud">-</span>
+                </li>
+                <li>
+                    <span>Humidity</span>
+                    <span class="humidity">-</span>
+                </li>
+                <li>
+                    <span>Wind</span>
+                    <span class="wind">-</span>
+                </li>
+            </ul>
+            <div class="forecast-manu">
+                <h3>5 Day Forecast</h3>
+                <li class="manu">
+                    <span>Date</span>
+                    <span>Condition</span>
+                    <span>Temperature</span>
+                    <span>Humidity</span>
+                    <span>wind</span>
+                </li>
+                <ul class="forecast">
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
