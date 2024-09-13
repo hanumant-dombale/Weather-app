@@ -136,7 +136,6 @@ function setForeCastData(data) {
         } else {
             const date = data.time;
             const time = date.substr(11);
-            console.log(time);
             const iconId = data.condition.icon.substr(
                 "//cdn.weatherapi.com/weather/64x64/day/".length
             );
