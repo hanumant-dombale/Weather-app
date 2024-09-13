@@ -127,7 +127,6 @@ function setIconAndBtn(data) {
 }
 
 function setForeCastData(data) {
-    console.log(data);
 
     foreCast.innerHTML = ``;
     data.forEach((data, index) => {
